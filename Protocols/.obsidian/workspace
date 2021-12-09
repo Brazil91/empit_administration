@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "1c591019de7faf36",
+    "type": "split",
+    "children": [
+      {
+        "id": "75546c56b5951844",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c4ce356753e961c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4e119629f3b89fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce3b7de205c9ec89",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "be2e16614944dda3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "19d310be87ccd773",
+    "type": "split",
+    "children": [
+      {
+        "id": "a12b67d94107e57f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d10bd31f52b21cc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "75546c56b5951844",
+  "lastOpenFiles": [
+    "Protocols/1Dec2021.md",
+    "3452280.jpg",
+    "Protocols/26Nov_Prozessoptimierungsmeeting.md",
+    "Protocols/2Dec2021.md",
+    "home/empit/Untitled.md",
+    "home/empit/Pictures/3452280.jpg.md",
+    "home/empit/Pictures/3452280.jpg).md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Testfile.md"
+  ]
+}
