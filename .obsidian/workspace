@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "b06e09624c3e1d0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fa3fdcd85b33add",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "Operations and Processes/Ishikawa-data-analysis_1Dec2021_raw.drawio.svg"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa8ac9652d684fcc",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6c6bfabaab346ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77dfbe28b48906d6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f6a2846f80e96354",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7e21fbb92ff6925a",
+    "type": "split",
+    "children": [
+      {
+        "id": "542d534757a61de2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2651c77d18bda6c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Operations and Processes/Ishikawa-data-analysis_1Dec2021_raw.drawio.svg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0fa3fdcd85b33add",
+  "lastOpenFiles": [
+    "Operations and Processes/Ishikawa-data-analysis_1Dec2021_raw.drawio.svg",
+    "Operations and Processes/Ishikawa-data-analysis_1Dec2021_raw.drawio.pdf",
+    "Knowledgemanagement/Knowledgemanagement.md",
+    "Protocols/KKW_Goesgen/KKW_GD_13Jan22.md",
+    "SOP/IT Structures/SOP_configure_rclone_9Dez2021.md",
+    "Knowledgemanagement/pathfinder_schulung_kickoff_13Jan22/pathfinder_schulung_kickoff_13Jan22.md",
+    "Knowledgemanagement/aca-a4_no_noise.jpg",
+    "Protocols/KKW_Goesgen/KKW_GD_13Jan22_teams.md",
+    "Verbesserungsvorschlaege_11Jan22.md",
+    "Protocols/Prozessoptemierungsmeeting_26Nov21.md"
+  ]
+}

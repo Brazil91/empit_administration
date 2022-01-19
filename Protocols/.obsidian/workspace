@@ -1,10 +1,10 @@
 {
   "main": {
-    "id": "1c591019de7faf36",
+    "id": "70ef430ffd27e087",
     "type": "split",
     "children": [
       {
-        "id": "75546c56b5951844",
+        "id": "134c47f864f06a1f",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -81,7 +81,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "75546c56b5951844",
+  "active": "134c47f864f06a1f",
   "lastOpenFiles": [
     "Protocols/1Dec2021.md",
     "3452280.jpg",
