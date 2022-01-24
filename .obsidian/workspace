@@ -4,13 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0fa3fdcd85b33add",
+        "id": "db05be8ad099ee63",
         "type": "leaf",
         "state": {
-          "type": "image",
-          "state": {
-            "file": "Operations and Processes/Ishikawa-data-analysis_1Dec2021_raw.drawio.svg"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -67,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operations and Processes/Ishikawa-data-analysis_1Dec2021_raw.drawio.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,17 +82,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0fa3fdcd85b33add",
+  "active": "db05be8ad099ee63",
   "lastOpenFiles": [
+    "EMPIT Adminsitration.md",
+    "Knowledgemanagement/SOP/SOP.md",
+    "Bruno_spline.md",
     "Operations and Processes/Ishikawa-data-analysis_1Dec2021_raw.drawio.svg",
     "Operations and Processes/Ishikawa-data-analysis_1Dec2021_raw.drawio.pdf",
     "Knowledgemanagement/Knowledgemanagement.md",
     "Protocols/KKW_Goesgen/KKW_GD_13Jan22.md",
     "SOP/IT Structures/SOP_configure_rclone_9Dez2021.md",
     "Knowledgemanagement/pathfinder_schulung_kickoff_13Jan22/pathfinder_schulung_kickoff_13Jan22.md",
-    "Knowledgemanagement/aca-a4_no_noise.jpg",
-    "Protocols/KKW_Goesgen/KKW_GD_13Jan22_teams.md",
-    "Verbesserungsvorschlaege_11Jan22.md",
-    "Protocols/Prozessoptemierungsmeeting_26Nov21.md"
+    "Knowledgemanagement/aca-a4_no_noise.jpg"
   ]
 }

@@ -1,4 +1,4 @@
-# Strom
+# Wo ist der Strom? Strompfad rekonstuktion?
 
 Schleife hohe induktivität, induktive Widerstand (geht mit der Frequenz)
 Höherer Strom nicht möglich, mit derzeitigen Setup. Risko steigt mit höherer Spannung
@@ -42,3 +42,13 @@ Leitung 2 kontaktiert → Leitung 2 hin und Leitung 1 zurück ohne umzuschließe
 Unsicherheit durch Namensgebung und Sortierung.
 
 Bögen > 5°
+
+Flo
+
+AS2 und AS3 in ordnung unterschiedlich gelaufen und auch umgeschlossen
+
+AS1 selben weg gelaufen, trotz Umschluß
+
+
+
+

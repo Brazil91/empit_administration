@@ -15,11 +15,13 @@
 > Ellipsoide Höhe:  
 > Orthometrische Höhe: 
 
-## KKG_Gösgen/UJ_AS_2/2022-01-12_0
+## /field_rover_1/KKG_Gösgen/UJ_AS_2/2022-01-12_0
 
 Nicht auswertbar, falsches GPS Setup. (Teilmenge von 2022-01-12_1).
- 
-## KKG_Gösgen/UJ_AS_2/2022-01-12_1 
+___ 
+
+
+## /field_rover_1/KKG_Gösgen/UJ_AS_2/2022-01-12_1 
 
 ### Evaluation
 
@@ -32,8 +34,10 @@ Die tiefen Frequenzen zeigen eine akzeptable Konstanz auf. Die Geometrie werden 
 Das GPS Signal ist gut.
 
 ![[Pasted image 20220113145101.png]]
+___
 
-## KKG_Gösgen/UJ_AS_2/2022-01-13_0 
+
+## /field_rover_1/KKG_Gösgen/UJ_AS_2/2022-01-13_0 
 
 **Verbesserungsvorschlag an Flo**: GIS informationen der Kontaktierungspunkte (zukünftig cp) dokumentieren und übermitteln.
 
@@ -69,10 +73,10 @@ Das GPS Signal ist gut.
 Schlechteres Setting als am 12.01.22, da Kreuzende Löschwasserleieenm Anfangg. Nach halber strecke verliert sich die Leitung. Nach einem Abschnitt ist die Leitung wieder Messbar, jedoch sehr nah an einer Häuserwand, daher potenziell schlechtes GPS.
 
 Drei Leitungen nebeneinander, kreuzende Löschwasserleitung zu Beginn.
+___
 
-## KKG_Gösgen/KKG_Gösgen/2022-01-15_0
 
-
+## /field_rover_1/KKG_Gösgen/KKG_Gösgen/2022-01-15_0 → UJ ZM05 AS1
 
 ### Feldinformationen
 
@@ -105,6 +109,11 @@ Drei Leitungen nebeneinander, kreuzende Löschwasserleitung zu Beginn.
 > asphaltierte Straße, freier Himmel (gutes GPS)
 
 
+- Bitumen Anstrich überall
+- Bei long beträgt die analog gemessene Tiefe 1,5 m.
+- Duktilgußleitung DN 300
+- angeschlossen an einem Schieber und Schacht
+- GIS info → Tal richtung Berg
 
 
 ### Evaluation 17Jan22
@@ -122,53 +131,64 @@ In der folgenden Abbildung ist der 6 Hz Spline in XY der Frequenz des Index 1 zu
 Die dritte Abbildung ist der 6 HZ Spline (approximierte Pipeline) Höhenplot. 
 
 ![[KKW_GD_ZM05_AS1_altitude_spline_6Hz.jpg]]
+___
 
-
-## KKG_Gösgen/KKG_Gösgen/ZM05_AS3/2022-01-17_0
+## /field_rover_1/KKG_Gösgen/KKG_Gösgen/ZM05_AS3/2022-01-17_0
 
 ### Feldinformation
 
-Doc 1.6 bis 2 m
+- Doc 1.6 bis 2 m
+- 20 em Auswertbar, der restliche Verlauf ist zu verwerfen
+  - Wahrscheinlich Stromkabeleingemessen, tiefe
 
-Wahrscheinlich Stromkabeleingemessen, tiefe
+Nach F2 (wahrscheinlich 12 Hz) DoC nur 1 m
+___
 
-Nach, F2 wahrscheinlich 12 Hz, nur DoC 1 m
+## /field_rover_1/KKG_VA_test/KKG_VA_test/ 
 
+  - Armierte Betonleitung KKG VA Test
 
+## VE 
 
-## Samstag
+### Feldinformationen
 
-duktilguß Leitung 300
+- Stahl
+- zwei parallel Leitungen auf der rechten Seite
+  - scheitel zu Scheitelpunkt ca. 47 cm entfernt
+- links eine Parallel Leitung 
+  - 1 m entfernt
+- parallel zur inspektionsstrecke Verläuft über die gesamte Länge eine Regenabflußrinne
+  - bei aktueller Leitung
+- durchgängig gerade Leitung
+- Galvanisch verbundene Leitungen zu beginn, potenziell abschnittsweise im Verlauf der Leitung möglich
+___
 
-UJ ZM05
+## /field_rover_1/KKG_Gösgen/VE23001
 
-angeschlossen schieber und schacht
+### Feldinformationen
 
-paar meter richtung long
-
-tal richtung Berg
-
-Bei long ist analog nachmessbar
-
-
-Bitumen anstrich überall
-
-
-
-
-laptop
-
-keine nvidia graka
-
-aktuelle oder aktuell -1 Intel Generation Prozessoren
-
-
-Stromquellen Daten, Empit_field Daten Zusammenführen
-
-perspektivisch automatisiert auf dem Server (daemon)
-
-
-
-Spline Gradient
-
-nehmen Pipeline als gegeben an → kontrolle des gegebenen spline/gps 
+> ######### EMPIT field: project start: 2022-01-20T09:36:48.234122+00:00#########
+> KKG VE 23001 Vorlauf
+> 
+> DN 250
+> 
+> Stahlleitung
+> 
+> 
+> 1kt short 100m Schacht per Zange am Rohr, W 8113
+> 2kt long 260m Schacht per Zange am Rohr, W 8114
+> Eingeschleift R: 2,5 Ohm
+> Gesamt R: 4,3 Ohm
+> PK: 7 A
+> SK:
+> 
+> Kabelschleife des Rückleiters liegt auf der rechten Seite 
+> 
+> Boden: Asphalt
+> 
+> Wetter: regnerisch in der Nacht
+> 
+> Rover: acvg setting
+>  
+> doc long 90 cm
+> doc short 116 cm
