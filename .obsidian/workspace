@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "db05be8ad099ee63",
+        "id": "b09aa61cf33eaea8",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Knowledgemanagement/Knowledgemanagement.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -49,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 453
   },
   "right": {
     "id": "7e21fbb92ff6925a",
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Knowledgemanagement/Knowledgemanagement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -82,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "db05be8ad099ee63",
+  "active": "b09aa61cf33eaea8",
   "lastOpenFiles": [
-    "EMPIT Adminsitration.md",
-    "Knowledgemanagement/SOP/SOP.md",
-    "Bruno_spline.md",
-    "Operations and Processes/Ishikawa-data-analysis_1Dec2021_raw.drawio.svg",
-    "Operations and Processes/Ishikawa-data-analysis_1Dec2021_raw.drawio.pdf",
     "Knowledgemanagement/Knowledgemanagement.md",
-    "Protocols/KKW_Goesgen/KKW_GD_13Jan22.md",
-    "SOP/IT Structures/SOP_configure_rclone_9Dez2021.md",
-    "Knowledgemanagement/pathfinder_schulung_kickoff_13Jan22/pathfinder_schulung_kickoff_13Jan22.md",
-    "Knowledgemanagement/aca-a4_no_noise.jpg"
+    "Knowledgemanagement/Improvements/Improvements ToC.md",
+    "Knowledgemanagement/Improvements/Spline_Changes_25Jan22.md",
+    "Knowledgemanagement/Improvements/spline_db_systemctl.png",
+    "Knowledgemanagement/Improvements/Verbesserungsvorschlaege_11Jan22.md",
+    "Protocols/Prozessoptimierung/Qualitätsmatrix_17Jan22.md",
+    "Protocols/Meeting_astoraHWWUniper_Handlungsanweisung_24Jan22.md",
+    "Protocols/Projects/KKW_Goesgen/KKW_GD_13Jan22.md",
+    "Knowledgemanagement/Improvements/Bruno's Spline.md",
+    "Protocols/Projects/KKW_Goesgen/Atomkraftwerk_Goesgen_KickoffMeeting_07Jan22.md"
   ]
 }

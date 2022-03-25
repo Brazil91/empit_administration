@@ -33,5 +33,3 @@ Im Vordergrund des Projekts steht die ermittlung der Integrität der Leitung. Zu
    - Schadensrate der Anomalydichte (wie bei VNT) lokal/global wird noch von Alex eroiert.
 
 3. nachtlose DoC Ermittlung
-
-[[Protocols]]

@@ -1,0 +1,1 @@
+Durch Aktivieren des Buttons werden die prognostizierten Versagenswahrscheinlichkeiten aller Inspektionsabschnitte dargestellt. Ein Inspektionsabschnitt ist jeweils durch zwei Kontaktierungspunkte begrenzt. Die Versagenswahrscheinlichkeit ist in prognostizierten Schäden pro Meter Rohrleitung in den nächsten 10 Jahren angegeben.

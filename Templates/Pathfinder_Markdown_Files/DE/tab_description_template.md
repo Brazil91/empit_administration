@@ -1,0 +1,5 @@
+EMPIT inspizierte in der Woche vom `[START Datum]` bis zum `[END Datum]` diverse Leitungen der `[CLIENT name]`. Genauere Inspektionsdaten finden sich unter den Registerkarten "Inspizierte Leitungen" und "Dokumente".
+
+Die Inspektion wurde mit der von EMPIT entwickelten Current Magnetometry Inspection (CMI) Technologie durchgeführt.
+
+Das übergeordnete Inspektionsziel der `[CLIENT name]` ist die Zustandsbeurteilung einzelner Leitungen im `Wasserleitungsnetzwerk der Stadt Recklinghausen`.` Die durch die CMI Inspektion ermittelten Zustandsparameter dienen der Zustandsbeurteilung der eingemessenen Rohrleitungen`. Die Informationen werden in der lokalen Versagenswahrscheinlichkeit zusammengefasst. Die Übersichtskarte stellt eine Vergleichbarkeit her. `In der Folge sind die farblichen Markierungen auf den Leitungen in der Karte ein Indikator für den Zustand der jeweiligen Leitung. Rot bedeutet dabei eine höhere lokale Versagenswahrscheinlichkeit, Grün eine niedrige lokale Versagenswahrscheinlichkeit. Die lokale Versagenswahrscheinlichkeit ist quantifiziert in prognostizierten Perforationen pro Meter Rohrleitung in den kommenden 10 Jahren. `

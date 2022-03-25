@@ -15,14 +15,14 @@
       }
     },
     {
-      "query": "path:pathfinder_markdown_templates",
+      "query": "path:Templates",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "path:\"Operations and Processes\"",
+      "query": "path:Operations and Processes",
       "color": {
         "a": 1,
         "rgb": 5431378
@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 16514816
       }
+    },
+    {
+      "query": "path:Knowledgemanagement",
+      "color": {
+        "a": 1,
+        "rgb": 8733144
+      }
     }
   ],
   "collapse-display": true,
@@ -53,6 +60,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 289,
-  "scale": 0.9100867492505067,
+  "scale": 0.42181696556823894,
   "close": true
 }

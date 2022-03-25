@@ -1,0 +1,1 @@
+By activating the button, the predicted failure probabilities of all inspection sections are displayed. An inspection section is limited in each case by two contact points. The failure probability is given in predicted damage per meter of pipeline in the next 10 years.

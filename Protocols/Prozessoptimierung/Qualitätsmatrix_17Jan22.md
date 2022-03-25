@@ -21,34 +21,72 @@ Bitumen hat eine geringere isolatorische Wirkung als PE, daher wird der für uns
 
 Handlungsoption: in einem zu definierenden Radius um die Kontaktierungsstelle die Magnetfelder mappen via current mapper. Nicht zu nah an den Kontaktierungspunkten, wegen Z-Feld-Verzerrung
 
-  - Erwartung ist im Detail ggf. mit Bruno, Jan, Albin zu diskutieren
+  	- Erwartung ist im Detail ggf. mit Bruno, Jan, Albin zu diskutieren
 
-kleine Spirale von 10 Meter
+	- "kleine Spirale" von 10 Metern um die Kontaktierung laufen. 
 
 An Flo: Welche Leitung, danach für mich, Leitungen im Umfeld?
 ___
 
 
-# Astora
+## Qualitätsmatrix; Albins Input
 
-Wie war die Messrichtung?
+Achsen: Datenqualität, Auswertungsqualität
+Ziel: Es ist schnell zu verstehen was haben wir für eine Datenqualität und wie weit wollen wir Aufwandstechnsich in der Auswertung hin → Kosten/Nutzen relation
 
-Leitung 1 Angeschlossen, Hinweg auf Leitung 1 und Rückweg auf Leitung 2
+## Meeting 24Jan22
 
-Leitung 1 kontaktiert → Leitung 1 hin  und Leitung 2 zurück, ohne umzuschließen?
+### Spline
+- GPS
+- local fit
+	* advanced dynamic spline
 
-Leitung 2 kontaktiert → Leitung 2 hin und Leitung 1 zurück ohne umzuschließen?
 
-Unsicherheit durch Namensgebung und Sortierung.
+### Geometry → Weight Function
+- stable GPS evaluationparameter needed
+- spline error → resdiual
+- distance error function → 5, 6 pt
+	- wie weit ist der Sensorpunkt von der approximierten Pipeline entfernt
+		* je weiter entfernt, desto schlechter die Approximation der Simulationsergebnisse   
 
-Bögen > 5°
+**Raw data**
+1a. raw data gps quality → weight function
+1b. SNR weight function
 
-Flo
+**Non Raw Data**
+2. spline error function
+	- local fit error /covariance matrix plotting→ uncertain → validierung an HWW (Daniel)
+3. outlier detection → isolated forest algorithm (clustering; Ausreißer)
 
-AS2 und AS3 in ordnung unterschiedlich gelaufen und auch umgeschlossen
+Wish for pre-alpha: 1a + 1b → correlation with fit results →→ indicator for evaluation →→→ additional outlier team data eval team
 
-AS1 selben weg gelaufen, trotz Umschluß
 
+
+resudials:  normalization → residual_pipe_fitter + spline_residuals 
+
+minimal SNR = 10 (if insides/knowledge over domain < 10 possible); Noise = ambient + sensor noise
+
+backward propagation from spline to fit results (dev of Albin); new category of data
+
+Montecarlo experiment (DoE) → brute force → unknown parameter
+
+#### First part, development of: 
+I 1a. raw data quality (1a) weight function → normalization
+II 1b. SNR weight function
+III Spline error (2) weight function → normalization
+	- covariance matrix of fit results → cmin?
+	- 	* xarray (data format, multidimensional) → @property
+IV outlier detection → isolated forest algorithm (clustering; Ausreißer)
+
+Timeframe: 2 Weeks?
+	 – _ACVG functions defect_ 1 day planning + 2 days of development
+
+
+### Integrity 
+
+to be continued...
+
+## gasnat
 
 
 

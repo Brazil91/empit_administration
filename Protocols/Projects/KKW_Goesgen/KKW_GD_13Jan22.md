@@ -1,14 +1,15 @@
-# KKW pre-validation 
+# KKW pre-validation
 
 ## Kontaktierungs Template
 
 > ##### Kontaktierung
+> 
 > **long**
 > lat: 
 > lon: 
 > Ellipsoide Höhe:  
 > Orthometrische Höhe: 
->
+> 
 > **short**
 > lat:  
 > lon: 
@@ -18,10 +19,10 @@
 ## /field_rover_1/KKG_Gösgen/UJ_AS_2/2022-01-12_0
 
 Nicht auswertbar, falsches GPS Setup. (Teilmenge von 2022-01-12_1).
+
 ___ 
 
-
-## /field_rover_1/KKG_Gösgen/UJ_AS_2/2022-01-12_1 
+## /field_rover_1/KKG_Gösgen/UJ_AS_2/2022-01-12_1
 
 ### Evaluation
 
@@ -34,10 +35,10 @@ Die tiefen Frequenzen zeigen eine akzeptable Konstanz auf. Die Geometrie werden 
 Das GPS Signal ist gut.
 
 ![[Pasted image 20220113145101.png]]
+
 ___
 
-
-## /field_rover_1/KKG_Gösgen/UJ_AS_2/2022-01-13_0 
+## /field_rover_1/KKG_Gösgen/UJ_AS_2/2022-01-13_0
 
 **Verbesserungsvorschlag an Flo**: GIS informationen der Kontaktierungspunkte (zukünftig cp) dokumentieren und übermitteln.
 
@@ -45,20 +46,21 @@ ___
 
 > EMPIT field: project start: 2022-01-13T11:30:40.062426+00:00
 > UJ_AS_1, DN300, GU
->
+> 
 > ##### Kontaktierung
+> 
 > **long**
 > lat: 47.3666582
 > lon: 7.96717832
 > Ellipsoide Höhe: 462.324 m 
 > Orthometrische Höhe: 416.657 m
->
+> 
 > **short**
 > lat: 47.36628196 
 > lon: 7.96777941
 > Ellipsoide Höhe: 439.384 m 
 > Orthometrische Höhe: 393.718 m
->
+> 
 > 1kt short, 100m, Schieber S202
 > 2kt long, 200m, Pipeline UJ 55 via Schacht
 > 
@@ -73,8 +75,8 @@ ___
 Schlechteres Setting als am 12.01.22, da Kreuzende Löschwasserleieenm Anfangg. Nach halber strecke verliert sich die Leitung. Nach einem Abschnitt ist die Leitung wieder Messbar, jedoch sehr nah an einer Häuserwand, daher potenziell schlechtes GPS.
 
 Drei Leitungen nebeneinander, kreuzende Löschwasserleitung zu Beginn.
-___
 
+___
 
 ## /field_rover_1/KKG_Gösgen/KKG_Gösgen/2022-01-15_0 → UJ ZM05 AS1
 
@@ -87,18 +89,19 @@ ___
 > ZM05_AS1
 > 
 > ##### Kontaktierung
+> 
 > **long**
 > lat: 47.37279691
 > lon: 7.97212811
 > Ellipsoide Höhe: 503.630 m  
 > Orthometrische Höhe: 457.967 m
->
+> 
 > **short**
 > lat: 47.36958647
 > lon: 7.96906323
 > Ellipsoide Höhe: 442.083 m  
 > Orthometrische Höhe: 396.415 m
->
+> 
 > 1kt short, 50m, Schieber ZW9703
 > 2kt long, 610m, Schieber ZW 9702
 > 
@@ -108,13 +111,11 @@ ___
 > 
 > asphaltierte Straße, freier Himmel (gutes GPS)
 
-
 - Bitumen Anstrich überall
 - Bei long beträgt die analog gemessene Tiefe 1,5 m.
 - Duktilgußleitung DN 300
 - angeschlossen an einem Schieber und Schacht
 - GIS info → Tal richtung Berg
-
 
 ### Evaluation 17Jan22
 
@@ -131,6 +132,7 @@ In der folgenden Abbildung ist der 6 Hz Spline in XY der Frequenz des Index 1 zu
 Die dritte Abbildung ist der 6 HZ Spline (approximierte Pipeline) Höhenplot. 
 
 ![[KKW_GD_ZM05_AS1_altitude_spline_6Hz.jpg]]
+
 ___
 
 ## /field_rover_1/KKG_Gösgen/KKG_Gösgen/ZM05_AS3/2022-01-17_0
@@ -142,13 +144,14 @@ ___
   - Wahrscheinlich Stromkabeleingemessen, tiefe
 
 Nach F2 (wahrscheinlich 12 Hz) DoC nur 1 m
+
 ___
 
-## /field_rover_1/KKG_VA_test/KKG_VA_test/ 
+## /field_rover_1/KKG_VA_test/KKG_VA_test/
 
-  - Armierte Betonleitung KKG VA Test
+- Armierte Betonleitung KKG VA Test
 
-## VE 
+## VE
 
 ### Feldinformationen
 
@@ -161,6 +164,7 @@ ___
   - bei aktueller Leitung
 - durchgängig gerade Leitung
 - Galvanisch verbundene Leitungen zu beginn, potenziell abschnittsweise im Verlauf der Leitung möglich
+
 ___
 
 ## /field_rover_1/KKG_Gösgen/VE23001
@@ -173,7 +177,6 @@ ___
 > DN 250
 > 
 > Stahlleitung
-> 
 > 
 > 1kt short 100m Schacht per Zange am Rohr, W 8113
 > 2kt long 260m Schacht per Zange am Rohr, W 8114
@@ -189,6 +192,22 @@ ___
 > Wetter: regnerisch in der Nacht
 > 
 > Rover: acvg setting
->  
+> 
 > doc long 90 cm
 > doc short 116 cm
+
+
+
+Start:
+
+lat: 47.36519957329201
+
+lon: 7.966372028955898
+
+
+
+Ende:
+
+lat: 47.36519863370135
+
+lon: 7.967026837397972

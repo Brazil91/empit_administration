@@ -1,6 +1,8 @@
 # Astora
 
-Wie war die Messrichtung?
+Gemessene Tiefe bei AS3 2.70 m
+
+## Wie war die Messrichtung?
 
 Leitung 1 Angeschlossen, Hinweg auf Leitung 1 und Rückweg auf Leitung 2
 
@@ -17,4 +19,3 @@ Flo
 AS2 und AS3 in ordnung unterschiedlich gelaufen und auch umgeschlossen
 
 AS1 selben weg gelaufen, trotz Umschluß
-

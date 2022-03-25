@@ -37,6 +37,3 @@ Deadline: Astoria Ende Januar
 ## SWG
 
 Bis Ende dieser Woche fehlende SWG projekte sowie pushen, ggf. in zwei Schritten, also das derzeit fertige und das was aussteht.
-
-
-[[Protocols]]
