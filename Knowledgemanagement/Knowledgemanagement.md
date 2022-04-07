@@ -9,12 +9,21 @@
 | empit_lab_gps  |               |          | empitlab, elab                  |                                 |
 | noise          | Rauschen      |          | Störungen durch Umwelteinflüsse | Hochspannugnsmasten, Stromkabel |
 | lateral offset | Seitenversatz |          |                                 |                                 |
+| postprocessing script|         | pps      | postprocessing_v2.py            |                                 |
 
 ___
 
 ## Pipeline Engineering
 
 Feldbögen bis ca. 20°
+
+## Ändern der Pipeline Durchmesser eines Managers
+1. Öffnen des Manager Ordners mit VS Code ( rechte Maustaste → Open with other Application → VS Code)
+2.  `strg + shift + h` to replace, bspw. pipe diameter: 0.5
+   
+   ![[Pasted image 20220407110344.png]]
+3. Insert e.g.  pipe diameter: 0.532
+
 
 ## empit_lab_gps
 
@@ -198,18 +207,32 @@ Spline Key nicht in *.epr
 
 ![[Pasted image 20220204115232.png]]
 
-## Splineoptimierungsworkaround
+# Pathfinder App
 
-### HWW
+## ACVG
 
-Bögen ab 1°
+### 1. elab
+In der _column_ `"current-leakages/parameter"` werden die gesetzten An2 Anomalien `current-leakages` exportiert, erste folgende Abbildung ist zum setzen der Anomalien, die zweite wie im export die _value column_ ACVG_total_db ausgewählt und zu benennen (`current_leakages_func` ) ist.
 
-maximale Quali.
+![[Pasted image 20220329162738.png]]
 
-Deadline 2 Wochen
+![[Pasted image 20220330083423.png]]
 
-### Astora
 
-Termin um 14 Uhr
+### 2. post_processing_v2.py
+Für acvg werden die post_processing_v1.yml keys `current_leakage_parameter` und `current_leakages_func`  benötigt. Damit diese Funktionen auch exportiert werden, sind die _column names_ `"current_leakages_func"` und `"current-leakages/parameter"` in die `pathfinder_cols` Liste einzutragen (uncomment; siehe folgende Abbildung). 
 
-Bögen ab 5°
+![[Pasted image 20220329162430.png]]
+
+
+
+### 3. Pathfinder
+
+In der coating_feature configuration wird per default auf `current-leakages/parameter` (default.configuration key `acvg_para`) gefiltert und als value wird `current_leakages_func` (default.configuration key `acvg`) zurückgegeben.
+
+![[Pasted image 20220330090108.png]]
+
+![[Pasted image 20220329163021.png]]
+
+`acvg_para` ist der pathfinder key, der auf die gesetzten `"current-leakages/parameter"` zeigt, siehe folgende Abbildung.
+

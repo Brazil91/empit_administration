@@ -2,6 +2,12 @@
 
 spline_window.py
 
+flatpak site packges  
+
+```
+/home/empit/.local/share/flatpak/app/app.empit.empit_lab_gps/current/active/files/lib/python3.9/site-packages  
+```
+
 ```
 from empit_db_project.db_helper_functions import copy_field_project
 ```
@@ -80,8 +86,6 @@ class Dummy:
     def __init__(self, f_xy, f_z, s):
         self.x = [f_xy, f_z, s]
 ```
-
-
 
 ## current_mapper orange cube fix 15Feb22
 

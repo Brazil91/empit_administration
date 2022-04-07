@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b09aa61cf33eaea8",
+        "id": "c15afb94b7eb0737",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Knowledgemanagement/Knowledgemanagement.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledgemanagement/Knowledgemanagement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,9 +82,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b09aa61cf33eaea8",
+  "active": "c15afb94b7eb0737",
   "lastOpenFiles": [
     "Knowledgemanagement/Knowledgemanagement.md",
+    "Knowledgemanagement/Knowledge Management ToC.md",
     "Knowledgemanagement/Improvements/Improvements ToC.md",
     "Knowledgemanagement/Improvements/Spline_Changes_25Jan22.md",
     "Knowledgemanagement/Improvements/spline_db_systemctl.png",
@@ -97,7 +93,6 @@
     "Protocols/Prozessoptimierung/Qualitätsmatrix_17Jan22.md",
     "Protocols/Meeting_astoraHWWUniper_Handlungsanweisung_24Jan22.md",
     "Protocols/Projects/KKW_Goesgen/KKW_GD_13Jan22.md",
-    "Knowledgemanagement/Improvements/Bruno's Spline.md",
-    "Protocols/Projects/KKW_Goesgen/Atomkraftwerk_Goesgen_KickoffMeeting_07Jan22.md"
+    "Knowledgemanagement/Improvements/Bruno's Spline.md"
   ]
 }
