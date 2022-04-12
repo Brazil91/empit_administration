@@ -7,8 +7,12 @@
         "id": "c15afb94b7eb0737",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Troubleshooting/Roll Challenge.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Troubleshooting/Roll Challenge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,7 @@
   },
   "active": "c15afb94b7eb0737",
   "lastOpenFiles": [
+    "Troubleshooting/Roll Challenge.md",
     "Knowledgemanagement/Knowledgemanagement.md",
     "Knowledgemanagement/Knowledge Management ToC.md",
     "Knowledgemanagement/Improvements/Improvements ToC.md",
@@ -92,7 +98,6 @@
     "Knowledgemanagement/Improvements/Verbesserungsvorschlaege_11Jan22.md",
     "Protocols/Prozessoptimierung/Qualitätsmatrix_17Jan22.md",
     "Protocols/Meeting_astoraHWWUniper_Handlungsanweisung_24Jan22.md",
-    "Protocols/Projects/KKW_Goesgen/KKW_GD_13Jan22.md",
-    "Knowledgemanagement/Improvements/Bruno's Spline.md"
+    "Protocols/Projects/KKW_Goesgen/KKW_GD_13Jan22.md"
   ]
 }

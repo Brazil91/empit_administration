@@ -17,6 +17,19 @@ ___
 
 Feldbögen bis ca. 20°
 
+## Magnetfeld Physik
+
+___
+
+### Induktive Kopplung
+
+___
+
+### Kapazitive Kopplung
+
+___
+
+
 ## Ändern der Pipeline Durchmesser eines Managers
 1. Öffnen des Manager Ordners mit VS Code ( rechte Maustaste → Open with other Application → VS Code)
 2.  `strg + shift + h` to replace, bspw. pipe diameter: 0.5
@@ -29,7 +42,14 @@ Feldbögen bis ca. 20°
 
 Das Auswertungstool zur Verwertung der vom Feldteam generierten Daten ist empit_lab_gps. Unser Chefentwickler ist der Physiker __Albin Hertrich__. 
 
-Die Software ist in python gescchrieben und wird dem Team Auswertung containisiert zur Verfügung gestellt
+Die Software ist in python geschrieben und wird dem Team Auswertung containisiert zur Verfügung gestellt
+
+## config's und templates
+Alle config und elab templates sind in dem Pfad `/home/empit/.var/app/app.empit.empit_lab_gps/config/` zu finden.
+
+In der Datei `/home/empit/.var/app/app.empit.empit_lab_gps/config/EMPIT lab/configuration` sind die credentials hinterlegt, damit der zugriff auf die elab db möglich ist. In dem Order `/home/empit/.var/app/app.empit.empit_lab_gps/config/EMPIT lab/PipelineExporter` sind die Pipeline Exporter templates hinterlegt.
+
+
 
 ### trouble shooting
 
@@ -38,18 +58,6 @@ error: `The application app.empit.empit_lab_gps/x86_64/master requires the runti
 solution: `flatpak install flathub org.gnomePlatform`
 
 
-
-#### Kürzen der Daten in elab
-
-Die Daten, zukünftige Dataframes können durch das postprocessing Script, gekürz werden. Dafür ist die Anomalie *misc*, siehe folgende Abbildung **# 1**, zu setzen mit dem entsprechendem Keyword.
-
-Soll der Beginn der Daten verworfen werden, ist `del_start` als misc/name zu setzen, vgl. folgende Abbildung **# 2**. Für das Kürzen am Ende der Datenmenge ist analog vorzugehen, mit dem Keyword `del_end` .
-
-
-
-![[Kürzen_der_Daten.png]]
-
-___
 
 ## Datenauswertungsstages
 
@@ -148,17 +156,21 @@ Mittelmäßiges SNR
 ![[SNR_bad.jpg]]
 Schlechtes SNR
 
-___
+#### Kürzen der Daten in elab
 
-### Induktive Kopplung
+Die Daten, zukünftige Dataframes können durch das postprocessing Script, gekürz werden. Dafür ist die Anomalie *misc*, siehe folgende Abbildung **# 1**, zu setzen mit dem entsprechendem Keyword.
 
-___
+Soll der Beginn der Daten verworfen werden, ist `del_start` als misc/name zu setzen, vgl. folgende Abbildung **# 2**. Für das Kürzen am Ende der Datenmenge ist analog vorzugehen, mit dem Keyword `del_end` .
 
-### Kapazitive Kopplung
+
+
+![[Kürzen_der_Daten.png]]
 
 ___
 
 ### ACVG
+
+Metallteile und Seitenversatz kann zu ACVG Artefakten führen
 
 ACVG Check f → A
 
@@ -179,6 +191,12 @@ AD Wandler 3 Kanäle
 - 0 → 2
 
 - 0 → 3 →→ Alex
+
+0→1 oder 2→3 erwarten wir ein Maximum
+
+1→2 Wendepunkt bzw. Nulldurchgang
+
+Für export tiefste Frequenz näheste an ACVG spezifikation
 
 ___
 
