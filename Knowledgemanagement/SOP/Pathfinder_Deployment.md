@@ -26,6 +26,20 @@ Dafür ist dass Script `inspection_config_parser_v1.py` (zshconfig alias = iconf
 
 Die Columns der *_inspection.csv sowie die columns aus der `columns.configuration` müssen für alle Files identisch sein (sofern `require_active_columns: true`; es wird `true` empfohlen)
 
+Wenn das Mapping respektive Wording ebenfalls von dem default unterscheiden soll, dann ist die **Gesamte!** `appcol` config aus der `default.configuration` in die `columns.configuration` zu übertragen!
+
+> appcol:
+>   pos:
+>     dtype: "float"
+>     decimals: 2
+>     label: "Position [m]"
+>     mapping:
+>       DE: "Position [m]"
+>       EN: "Position [m]"
+>   empit_pos:
+>     dtype: "float"
+>     ...
+
 ## feature.configuration
 
 > inspection_features:
