@@ -1,6 +1,6 @@
 # App Verwaltung
 
-Eine micro [[SOP]] bezüglich des Appmanagements. 
+Eine micro [[SOP ToC]] bezüglich des Appmanagements. 
 
 
 ## Fundamental wichtig

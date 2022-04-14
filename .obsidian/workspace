@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Troubleshooting/Roll Challenge.md",
+            "file": "Knowledgemanagement/SOP/SOP ToC.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Troubleshooting/Roll Challenge.md",
+                "file": "Knowledgemanagement/SOP/SOP ToC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "c15afb94b7eb0737",
   "lastOpenFiles": [
+    "Knowledgemanagement/SOP/SOP ToC.md",
+    "EMPIT Adminsitration.md",
     "Troubleshooting/Roll Challenge.md",
     "Knowledgemanagement/Knowledgemanagement.md",
     "Knowledgemanagement/Knowledge Management ToC.md",
@@ -96,8 +98,6 @@
     "Knowledgemanagement/Improvements/Spline_Changes_25Jan22.md",
     "Knowledgemanagement/Improvements/spline_db_systemctl.png",
     "Knowledgemanagement/Improvements/Verbesserungsvorschlaege_11Jan22.md",
-    "Protocols/Prozessoptimierung/Qualitätsmatrix_17Jan22.md",
-    "Protocols/Meeting_astoraHWWUniper_Handlungsanweisung_24Jan22.md",
-    "Protocols/Projects/KKW_Goesgen/KKW_GD_13Jan22.md"
+    "Protocols/Prozessoptimierung/Qualitätsmatrix_17Jan22.md"
   ]
 }

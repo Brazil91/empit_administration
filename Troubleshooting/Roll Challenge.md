@@ -8,8 +8,6 @@ Eine Herausforderung bei dieser Problematik ist, dass es unbekannt ist welcher T
 
 Das korrektur Script (calculate_roll-corrected_spline.py) verringert per definition den Abstand von Referenz- und Testtrack, daher ist notwendig "sicher" zu sein, ob der lateral Offset eine Funktion des Winkelfehlers (roll error) ist oder nicht.
 
-Der roll error ist daran zu identifizieren, dass bei einer Änderung der Tiefe, der Seitenversatz (lateral offset) sich ändert, ergo der roll error führt zur Korrelation von depth (tiefe) der Pipeline und dem lateral offset.
-
-Unter der Annhame, dass das GPS gut ist also fix (schlechtes GPS gleich float; es gibt noch mehr) aufweist, gilt folgendes: Wenn eine generelle Konstanz des lateral offsets zu erkennen ist, auch bei Änderungen der pipe depth, ist ein roll error unwahrscheinlich und ist von der Korrektur abzuraten. 
+Unter der Annahme, dass das GPS gut ist also fix (schlechtes GPS gleich float; es gibt noch mehr) aufweist, gilt folgendes: Wenn eine generelle Konstanz des lateral offsets zu erkennen ist, auch bei Änderungen der pipe depth, ist ein roll error unwahrscheinlich und ist von der Korrektur abzuraten. 
 
 Bei guten GPS ist ein lateral offset von bis zu 5 cm zu erwarten.
